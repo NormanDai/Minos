@@ -1,14 +1,14 @@
-# Minos - Java开源Spring 对象校验库
+# Mines - Java开源Spring 对象校验库
 
-Minos 是由java语言实现的Spring 对象校验插件库，内部校验基于Oval 实现，基于Oval封装的原因是 该框架开源并且功能强大，同时支持JSR-303。
+Mines 是由java语言实现的Spring 对象校验插件库，内部校验基于Oval 实现，基于Oval封装的原因是 该框架开源并且功能强大，同时支持JSR-303。
 
-## Minos 特点：
+## Mines 特点：
 - 1.基于成熟的对象校验框架Oval
 - 2.遵循JSR-303 对象校验标准
 - 3.使用简单方便，可插拔
 - 4.基于注解
 
-> 由于目前Minos 还没有提交到Maven center 所以用户需自行从 [Github](https://github.com/NormanDai/Minos) 下载代码并编译
+> 由于目前Mines 还没有提交到Maven center 所以用户需自行从 [Github](https://github.com/NormanDai/Mines) 下载代码并编译
 
 ## 使用范例
 
@@ -16,7 +16,7 @@ Minos 是由java语言实现的Spring 对象校验插件库，内部校验基于
 
 
 ```
-<bean id="validator" class="com.minos.Validator"/>
+<bean id="validator" class="com.Mines.Validator"/>
 ```
 
 ### **定义需要校验的bean**
@@ -51,7 +51,7 @@ public class ValidateBeanTest{
 
 
 ```
-import com.minos.core.annotations.Validator;
+import com.Mines.core.annotations.Validator;
 import net.sf.oval.constraint.NotEmpty;
 
 public class ValidatorTest {
