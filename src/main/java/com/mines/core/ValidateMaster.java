@@ -1,4 +1,4 @@
-package com.minos.core;
+package com.mines.core;
 
 
 import net.sf.oval.ConstraintViolation;

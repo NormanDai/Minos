@@ -1,8 +1,8 @@
-package com.minos;
+package com.mines;
 
 
-import com.minos.core.ValidateMaster;
-import com.minos.core.exception.ParameterValidateException;
+import com.mines.core.ValidateMaster;
+import com.mines.core.exception.ParameterValidateException;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Aspect;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Validator {
 
-    @Before(value = "@annotation(com.minos.core.annotations.Validator)")
+    @Before(value = "@annotation(com.mines.core.annotations.Validator)")
     public void validate(JoinPoint point){
         Signature signature = point.getSignature();
         Object[] args = point.getArgs();

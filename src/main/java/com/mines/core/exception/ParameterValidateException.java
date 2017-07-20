@@ -1,4 +1,4 @@
-package com.minos.core.exception;
+package com.mines.core.exception;
 
 
 public class ParameterValidateException extends RuntimeException{

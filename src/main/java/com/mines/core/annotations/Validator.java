@@ -1,4 +1,4 @@
-package com.minos.core.annotations;
+package com.mines.core.annotations;
 
 import java.lang.annotation.*;
 
